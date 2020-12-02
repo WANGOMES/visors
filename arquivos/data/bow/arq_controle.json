@@ -1,0 +1,12 @@
+{
+    "atualizacao_data": "11-11-2020",
+    "atualizacao_hora": "21:25:18",
+    "total_tweets": 57772,
+    "has_lista_vocabulario": true,
+    "total_vocabulos": 481,
+    "lista_vocabulario_nome": "arquivos/data/bow/vocabulario.txt",
+    "has_dict_freq_vocabulario": true,
+    "dict_freq_vocabulario_nome": "arquivos/data/bow/freq_vocabulario.json",
+    "has_lista_tweets_limpos": true,
+    "lista_tweets_limpos_nome": "arquivos/data/bow/lista_tweets_limpos.pkl"
+}

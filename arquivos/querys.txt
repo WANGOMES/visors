@@ -1,0 +1,4 @@
+TRUNCATE TABLE `selecionados_notrt_tb`
+ALTER TABLE `selecionados_notrt_tb` AUTO_INCREMENT=1 
+
+SELECT count(id) FROM `tweet_tb` WHERE datetime BETWEEN '2020-10-10 00:00:00.000000' AND '2020-10-10 23:59:59.999999'

@@ -1,0 +1,107 @@
+
+ * * * * BASE DE DADOS TWEETS ETIQUETADOS COMO VULNERABILIDADE OU RISCO SOCIAL * * * *
+ Vulnerabilidade Social = 1.0: 360   | █████████████ (13.67%)
+ Vulnerabilidade Social = 0.0: 2274  | ██████████████████████████████████ (86.33%)
+ Total de tweets: 2634
+
+
+>>> Resultado Teste 1 (Stratified Cross-Validation):
+              precision    recall  f1-score   support
+
+         Não       0.92      0.90      0.91       382
+         Sim       0.22      0.28      0.24        40
+
+    accuracy                           0.84       422
+   macro avg       0.57      0.59      0.58       422
+weighted avg       0.85      0.84      0.85       422
+
+>>> Resultados Teste 2 (HOLDOUT):
+              precision    recall  f1-score   support
+
+         Não       0.81      0.49      0.61       367
+         Sim       0.39      0.74      0.51       160
+
+    accuracy                           0.57       527
+   macro avg       0.60      0.61      0.56       527
+weighted avg       0.68      0.57      0.58       527
+
+
+
+       MÉTODO DE AMOSTRAGEM: HOLDOUT
+ Detalhamento das Amostras:
+  Treinamento: 2107  | ███████████████████████████████ (79.99%)
+  Teste: 527         | ████████████████████ (20.01%)
+  Total de tweets: 2634
+
+
+        MÉTODO DE AMOSTRAGEM: Stratified Cross-Validation
+ Detalhamento das Amostras:
+  Treinamento: 1685  | ████████████████████████████████ (80.01%)
+  Teste: 421         | ███████████████████ (19.99%)
+  Total de tweets: 2106
+
+
+
+ * * * PREDIÇÃO VULNERABILIDADE EM TWEETS * * *
+id: 52332 tweet: lembrando aq sai do gp da sala... Vulnerabilidade: 0.0 - Class: 0.0 - OK
+id: 52609 tweet: nunca se esqueca disso jesus t... Vulnerabilidade: 0.0 - Class: 0.0 - OK
+id: 52643 tweet: algo inacreditavel comecara a ... Vulnerabilidade: 0.0 - Class: 0.0 - OK
+id: 52650 tweet: eu que frequentava cinema toda... Vulnerabilidade: 0.0 - Class: 0.0 - OK
+id: 53401 tweet: um ano desde que conseguiu me ... Vulnerabilidade: 0.0 - Class: 0.0 - OK
+id: 53650 tweet: deus te sustentou ate aqui e n... Vulnerabilidade: 0.0 - Class: 0.0 - OK
+id: 53694 tweet: quando o cruzeiro cair a torci... Vulnerabilidade: 0.0 - Class: 0.0 - OK
+id: 54391 tweet: estou querendo assinar apple m... Vulnerabilidade: 0.0 - Class: 0.0 - OK
+id: 54579 tweet: o jeito vai ser abandonar mesm... Vulnerabilidade: 0.0 - Class: 0.0 - OK
+id: 54832 tweet: as unicas amizades que eu jura... Vulnerabilidade: 0.0 - Class: 0.0 - OK
+    ...          ...                                                ...          ...   ...
+id: 20541 tweet: muito pior agressao foi a acus... Vulnerabilidade: 1.0 - Class: 1.0 - OK
+id: 29260 tweet: so perguntei pro gustavo sefer... Vulnerabilidade: 1.0 - Class: 1.0 - OK
+id: 41109 tweet: essa mallu e tao certinha que ... Vulnerabilidade: 1.0 - Class: 1.0 - OK
+id: 55241 tweet: a acusacao nao foi de estupro ... Vulnerabilidade: 1.0 - Class: 1.0 - OK
+id: 29759 tweet: o gado do bolsonaro nao passa ... Vulnerabilidade: 0.0 - Class: 1.0 - ERRO
+id: 38262 tweet: mortes pela covid foram amor d... Vulnerabilidade: 0.0 - Class: 1.0 - ERRO
+id: 909   tweet: ameaca de corte de bolsa se na... Vulnerabilidade: 1.0 - Class: 1.0 - OK
+id: 37612 tweet: a nova ameaca na casa italiana... Vulnerabilidade: 0.0 - Class: 1.0 - ERRO 
+id: 26450 tweet: a brutalidade policial a onde ... Vulnerabilidade: 1.0 - Class: 1.0 - OK
+id: 42597 tweet: velas foram acesas por todas a... Vulnerabilidade: 1.0 - Class: 1.0 - OK
+  > > Tamanho teste:  527
+
+
+        MATRIZ DE PREDIÇÃO VULNERABILIDADE EM TWEETS
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 0. 0. 1. 0. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 0. 0. 0. 1.
+ 1. 1. 1. 1. 0. 1. 1. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 1. 1.
+ 0. 1. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 0. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1.
+ 0. 1. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0.
+ 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 1. 0. 1. 1. 1. 1. 0. 0. 0. 0. 1. 0. 0. 0.
+ 1. 0. 1. 0. 1. 1. 1. 0. 0. 1. 1. 1. 0. 0. 1. 1. 1. 0. 0. 0. 0. 1. 1. 1.
+ 1. 1. 0. 0. 1. 0. 0. 1. 0. 1. 1. 1. 0. 0. 1. 1. 0. 0. 1. 0. 0. 0. 0. 0.
+ 0. 0. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 0. 0. 1. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 1. 1. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+ 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 0. 0. 1. 0. 0. 0. 1. 0. 1.
+ 0. 0. 0. 0. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 1. 1. 0. 1.
+ 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1.
+ 0. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0.
+ 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+  > > Tamanho teste:  527
+
+ --- MÉTRICAS ---
+acuracia:  0.56546490   precisao: 0.38688525   recall: 0.73750000  
+f1_score: 0.50752688
+
+
+[[180 187]
+ [ 42 118]]
+Confusion matrix, without normalization
+[[180 187]
+ [ 42 118]]
+Normalized confusion matrix
+[[0.49 0.51]
+ [0.26 0.74]]
