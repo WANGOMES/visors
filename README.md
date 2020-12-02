@@ -61,7 +61,7 @@
   * [Pré Requisitos](#pré-requisitos)
   * [Instalação](#instalação)
 * [Uso](#uso)
-* [License](#license)
+* [Licença](#licença)
 * [Contato](#contato)
 <!--* [Acknowledgements](#acknowledgements)-->
 
@@ -150,7 +150,7 @@ Contributions are what make the open source community such an amazing place to b
 -->
 
 <!-- LICENSE -->
-## License
+## Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
