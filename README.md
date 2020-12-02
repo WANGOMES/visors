@@ -29,7 +29,7 @@
 
 
 <!-- PROJECT LOGO -->
-![logo](./images/logo.png)(https://github.com/WANGOMES/visors)
+[![logo VISORS][logo-path](https://github.com/WANGOMES/visors)]
 <br />
 <!-- <p align="center">
   <a href="https://github.com/WANGOMES/visors">
@@ -191,3 +191,4 @@ Link do Projeto: [https://github.com/WANGOMES/visors](https://github.com/WANGOME
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/WANGOMES-->
 [product-screenshot]: ./images/visors.png
+[logo-path]: ./images/logo.png
