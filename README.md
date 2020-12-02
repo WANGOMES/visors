@@ -29,16 +29,16 @@
 
 
 <!-- PROJECT LOGO -->
-![logo VISORS][logo-path](https://github.com/WANGOMES/visors)
+![logo VISORS][logo-path]
 <br />
 <!-- <p align="center">
   <a href="https://github.com/WANGOMES/visors">
     <img src="images/logo.png" alt="Logo" width="100" height="100">
   </a> -->
 
-  <h3 align="center">VISORS</h3>
+  <h2 align="center"><a href="https://github.com/WANGOMES/visors">VISORS</a></h2>
 
-  <p align="center">VISORS - Vigilância Socioassistencial em Redes Sociais é o produto de um trabalho acadêmico em Sistemas de Informação.
+  <p align="center">Vigilância Socioassistencial em Redes Sociais é o produto de um trabalho acadêmico em Sistemas de Informação.
   <br />
     <a href="https://github.com/WANGOMES/visors"><strong>Explore the docs »</strong></a>
     <br />
