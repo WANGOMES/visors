@@ -32,7 +32,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/WANGOMES/visors">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">VISORS</h3>
@@ -80,6 +80,7 @@ VISORS - Vigilância Socioassistencial em Redes Sociais é o resultado do trabal
 * [Base tweets etiquetados Vulnerabilidade e Risco social]() - _Base de dados SQL com 2.634 tweets etiquetados manualmente_ 
 * [municipios_brasileiros_ibge.csv](./arquivos/municipios_brasileiros_ibge.csv) - _Arquivo .csv para validação dos 5.572 municípios brasileiros. Ver [IBGE](https://www.ibge.gov.br/geociencias/downloads-geociencias.html)_
 * [Base_controle_municipios_ibge.csv](./arquivos/arq_controle_mun_bra_ibge.csv) - *Arquivo .csv para auxiliar na busca dos municípios brasileiros no arquivo 'municipios_brasileiros_ibge.csv'*
+* [Vigilância Socioassistencial: Monitoramento de Riscos e Vulnerabilidades em Tempo Real por meio de Mineração de Texto no Twitter](https://drive.google.com/file/d/1sXuG8JTdBytPzg3U6Lg9nr_cM4Q-QNlI/view?usp=sharing) - *Arquivo .pdf do Trabalho Acadêmico*
 
 ![Modulos](./images/modulos.PNG)
 
@@ -126,7 +127,7 @@ pip install NOME_PACOTE
 
 Com o objetivo de **contribuir** com a área de **Vigilância Socioassistencial** por meio da **coleta e da análise de dados não estruturados**, o protótipo **VISORS** permite, com uma taxa de **_recall_ de 74%** (classe 'Sim'), identificar situações de ***vulnerabilidade e risco social em tweets*** públicos. 
 
-_Para saber mais, consulte o [Trabalho Acadêmico](https://example.com)_.
+_Para saber mais, consulte o [Trabalho Acadêmico](https://drive.google.com/file/d/1sXuG8JTdBytPzg3U6Lg9nr_cM4Q-QNlI/view?usp=sharing)_.
 
 <!-- ROADMAP -->
 <!--## Roadmap
