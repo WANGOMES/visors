@@ -78,7 +78,7 @@ VISORS - Vigilância Socioassistencial em Redes Sociais é o resultado do trabal
 ### Ferramentas
 
 * [Dicionário de Sinônimos](./arquivos/stem_termos.txt) - _Dicionário de Sinônimos dos termos **vulnerabilidade** e **risco** social_
-* [Base tweets etiquetados Vulnerabilidade e Risco social]() - _Base de dados SQL com 2.634 tweets etiquetados manualmente_ 
+* [Base tweets etiquetados Vulnerabilidade e Risco social](./arquivos/data/lsa/feature_topicos.json) - _Base de dados SQL com 2.634 tweets etiquetados manualmente_ 
 * [municipios_brasileiros_ibge.csv](./arquivos/municipios_brasileiros_ibge.csv) - _Arquivo .csv para validação dos 5.572 municípios brasileiros. Ver [IBGE](https://www.ibge.gov.br/geociencias/downloads-geociencias.html)_
 * [Base_controle_municipios_ibge.csv](./arquivos/arq_controle_mun_bra_ibge.csv) - *Arquivo .csv para auxiliar na busca dos municípios brasileiros no arquivo 'municipios_brasileiros_ibge.csv'*
 * [Vigilância Socioassistencial: Monitoramento de Riscos e Vulnerabilidades em Tempo Real por meio de Mineração de Texto no Twitter](https://drive.google.com/file/d/1sXuG8JTdBytPzg3U6Lg9nr_cM4Q-QNlI/view?usp=sharing) - *Arquivo .pdf do Trabalho Acadêmico*
