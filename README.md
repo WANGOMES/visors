@@ -19,13 +19,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
+<!--[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+-->
 
 
 <!-- PROJECT LOGO -->
@@ -56,9 +56,9 @@
 ## Índice
 
 * [Sobre o VISORS](#sobre-o-visors)
-  - [Ferramentas](#ferramentas)
+  * [Ferramentas](#ferramentas)
 * [Iniciando](#iniciando)
-  - [Pré Requisitos](#pré-requisitos)
+  * [Pré Requisitos](#pré-requisitos)
   * [Instalação](#instalação)
 * [Uso](#uso)
 * [License](#license)
@@ -70,7 +70,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o VISORS
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]
 
 VISORS - Vigilância Socioassistencial em Redes Sociais é o resultado do trabalho acadêmico intitulado VIGILÂNCIA SOCIOASSISTENCIAL: MONITORAMENTO DE RISCOS E VULNERABILIDADES EM TEMPO REAL POR MEIO DE MINERAÇÃO DE TEXTO NO TWITTER que propõe identificar situações de vulnerabilidade e risco social em tweets.
 
@@ -81,6 +81,7 @@ VISORS - Vigilância Socioassistencial em Redes Sociais é o resultado do trabal
 * [municipios_brasileiros_ibge.csv](./arquivos/municipios_brasileiros_ibge.csv) - _Arquivo .csv para validação dos 5.572 municípios brasileiros. Ver [IBGE](https://www.ibge.gov.br/geociencias/downloads-geociencias.html)_
 * [Base_controle_municipios_ibge.csv](./arquivos/arq_controle_mun_bra_ibge.csv) - *Arquivo .csv para auxiliar na busca dos municípios brasileiros no arquivo 'municipios_brasileiros_ibge.csv'*
 
+![Modulos png](./images/modulos.png)
 
 <!-- GETTING STARTED -->
 ## Iniciando
@@ -90,6 +91,8 @@ Você também precisa:
 * Editor de Texto: **[VSCode](https://code.visualstudio.com/download)** - utilizado no trabalho;
 * SGBD: **[MySQL](https://www.mysql.com/downloads/)** - utilizado no trabalho.
 * API Stream Twitter: **[API_Stream_Twitter](https://developer.twitter.com/en/docs/twitter-api)** - A **Streaming API do Twitter** (API de streaming em tempo real), necessita de uma única conexão aberta entre o Aplicativo cliente (Client App) e a API, diferentemente das APIs REST, que entregam dados em lotes por meio de repetidas solicitações do Client App. É necessário criar uma API em [Twitter](https://developer.twitter.com/en/docs/twitter-api) para ter acesso ao fluxo de dados dos *tweets*. Veja a [Documentação](https://developer.twitter.com/en/doc).
+
+![Ferramentas png](./images/ferramentas.png)
 
 ### Pré Requisitos
 
@@ -173,7 +176,7 @@ Link do Projeto: [https://github.com/WANGOMES/visors](https://github.com/WANGOME
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/WANGOMES/visors.svg?style=flat-square
+<!--[contributors-shield]: https://img.shields.io/github/contributors/WANGOMES/visors.svg?style=flat-square
 [contributors-url]: https://github.com/WANGOMES/visors/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/WANGOMES/visors.svg?style=flat-square
 [forks-url]: https://github.com/WANGOMES/visors/network/members
@@ -184,5 +187,5 @@ Link do Projeto: [https://github.com/WANGOMES/visors](https://github.com/WANGOME
 [license-shield]: https://img.shields.io/github/license/WANGOMES/visors.svg?style=flat-square
 [license-url]: https://github.com/WANGOMES/visors/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/WANGOMES
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/WANGOMES-->
+[product-screenshot]: ./images/visors.png
