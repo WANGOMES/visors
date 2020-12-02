@@ -29,11 +29,12 @@
 
 
 <!-- PROJECT LOGO -->
+![logo](./images/logo.png)(https://github.com/WANGOMES/visors)
 <br />
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/WANGOMES/visors">
     <img src="images/logo.png" alt="Logo" width="100" height="100">
-  </a>
+  </a> -->
 
   <h3 align="center">VISORS</h3>
 
