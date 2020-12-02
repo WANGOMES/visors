@@ -29,7 +29,7 @@
 
 
 <!-- PROJECT LOGO -->
-[![logo VISORS][logo-path](https://github.com/WANGOMES/visors)]
+![logo VISORS][logo-path](https://github.com/WANGOMES/visors)
 <br />
 <!-- <p align="center">
   <a href="https://github.com/WANGOMES/visors">
